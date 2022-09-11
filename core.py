@@ -7,7 +7,7 @@ from utils.utils import get_config
 
 app = FastAPI()
 
-IPFS_NODE = "http://localhost:5001/"
+IPFS_NODE = get_config().ipfs_node
 
 client = httpx.AsyncClient(base_url=IPFS_NODE)
 
