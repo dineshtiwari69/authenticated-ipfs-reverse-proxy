@@ -1,0 +1,14 @@
+
+
+{
+    "ipfs-node":"http://localhost:5001/",
+    "require_token":true,
+    "ip_filter":false,
+    "tokens":[
+        "12345678"
+    ],
+    "ip_allowlist":[
+        "192.168.1.1"
+    ]
+}
+
